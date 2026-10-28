@@ -1,0 +1,23 @@
+# Independent YOLOX pipeline settings. Paths are relative to repository root.
+backgrounds: amostras
+objects: alvo
+output: datasets/yolox_custom
+classes:
+  - objeto
+images: 1000
+train_fraction: 0.8
+negative_fraction: 0.15
+seed: 12345
+min_scale: 0.08
+max_scale: 0.6
+min_objects: 1
+max_objects: 4
+max_rotation_degrees: 40
+placement: random # random or center
+allow_overlap: true
+image_size: 640
+model: yolox-s
+epochs: 100
+batch_size: 8
+device: auto
+pretrained: ""

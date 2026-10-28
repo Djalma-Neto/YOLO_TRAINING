@@ -1,0 +1,9 @@
+SPDX-License-Identifier: Apache-2.0
+
+This directory's original migration utilities are licensed under the Apache
+License, Version 2.0. A copy of the license is available at:
+https://www.apache.org/licenses/LICENSE-2.0
+
+This integration layer is licensed under Apache-2.0. YOLOX source files under
+third_party/YOLOX retain their upstream copyright and Apache-2.0 license. Data,
+checkpoints, and other third-party materials retain their own licenses.

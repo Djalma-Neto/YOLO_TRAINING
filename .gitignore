@@ -1,4 +1,19 @@
 alvo/
 amostras/
-dataset/
+datasets/
 venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+third_party/YOLOX/YOLOX_outputs/
+yolox_migration/*.onnx
+!third_party/YOLOX/yolox/data/datasets/
+!third_party/YOLOX/yolox/data/datasets/*.py
+# Legacy MMYOLO files may remain in an existing local checkout; do not publish them.
+configs/
+/tools/
+mmyolo/
+requirements/
+setup.py
+setup.cfg
+MANIFEST.in

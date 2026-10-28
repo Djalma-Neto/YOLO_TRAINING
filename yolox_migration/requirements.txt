@@ -1,0 +1,7 @@
+# Install PyTorch separately for the CPU/CUDA build required by this machine.
+Pillow>=9.0
+numpy>=1.23,<2.0
+PyYAML>=6.0
+onnx>=1.14
+onnxruntime>=1.15
+# YOLOX runtime and training dependencies come from third_party/YOLOX/setup.py.

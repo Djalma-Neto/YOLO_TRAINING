@@ -76,4 +76,3 @@ def getImages(array):
 
 array = getURL()
 getImages(array)
-print(array)

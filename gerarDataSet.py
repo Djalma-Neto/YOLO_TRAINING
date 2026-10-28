@@ -12,7 +12,7 @@ from PIL import ImageEnhance
 
 DIR_AMOSTRAS = "./amostras"
 DIR_OBJETOS = "./alvo"
-BASE_DIR = "./dataset"
+BASE_DIR = "./datasets/custom"
 DIR_TRAIN_IMAGES = f"{BASE_DIR}/train/images"
 DIR_TRAIN_LABELS = f"{BASE_DIR}/train/labels"
 DIR_VAL_IMAGES = f"{BASE_DIR}/val/images"
@@ -47,7 +47,7 @@ for d in dirs:
 # =========================================================
 
 yaml_content = f"""
-path: .
+path: datasets/custom
 
 train: train/images
 val: val/images
